@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo de Software</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Clase_02052024.css">
+</head>
+<body>
+
+<!-- Cabecera -->
+<header>
+    <div class="container">
+        <h1 class="titulo">Desarrollo de Software</h1>
+    </div>
+</header>
+
+<!-- Contenido principal -->
+<div class="container contenido">
+    <h2>Introducción</h2>
+    <p>El Proceso para el desarrollo de software, también denominado ciclo de vida del desarrollo de software, es una estructura aplicada al desarrollo de un producto de software.</p>
+    <p>El rol principal es la creación y adaptación de programas informáticos, aunque obviamente se trata de una descripción algo simplista.</p>
+
+    <h2>¿Cómo convertirse en un desarrollador de software?</h2>
+    <p>Si nunca has programado antes, necesitarás aprender los fundamentos de la programación. Hay una gran cantidad de recursos disponibles en línea que te pueden ayudar a aprender a programar, desde cursos en línea hasta tutoriales y libros.</p>
+    <p>Si deseas seguir una carrera como desarrollador de software, tener una educación formal en ciencias de la computación o una carrera relacionada puede ser beneficioso. Muchas empresas buscan desarrolladores de software con una licenciatura en ciencias de la computación o una carrera relacionada.</p>
+
+    <!-- Enlaces -->
+    <a href="https://portales.inacap.cl/" class="enlace"> Ir al portal</a>
+    <br>
+    <br>
+    <a href="https://www.google.com/" class="enlace-google">Ir a Google</a>
+    <br>
+    <br>
+    <!-- Imagen -->
+    <img src="Desarrollo-de-Software.jpg.webp" alt="Desarrollo de Software">
+
+    <!-- Sección de Preguntas Frecuentes -->
+    <h2>Preguntas Frecuentes</h2>
+    <button class="btn btn-primary" onclick="toggleAnswer('faq1')">¿Cuáles son los lenguajes de programación más populares?</button>
+    <p id="faq1" style="display: none;">Los lenguajes de programación más populares incluyen Python, JavaScript, Java y C++.</p>
+
+</div>
+
+<!-- Sección de Noticias -->
+<section class="noticias">
+    <div class="container">
+        <h2>Últimas Noticias</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Introducción a la inteligencia artificial</h3>
+                        <p class="card-text">Descubre cómo la inteligencia artificial está transformando el mundo del desarrollo de software.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Nuevas tendencias en desarrollo web</h3>
+                        <p class="card-text">Explora las tendencias más recientes en el ámbito del desarrollo web y cómo pueden impactar tu carrera.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sección de Proyectos -->
+<section class="proyectos">
+    <div class="container">
+        <h2>Proyectos Destacados</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Sistema de Gestión de Biblioteca</h3>
+                        <p class="card-text">Colabora en el desarrollo de un sistema para gestionar préstamos de libros en bibliotecas.</p>
+                        <a href="#" class="btn btn-primary">Ver proyecto</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Aplicación de Notas</h3>
+                        <p class="card-text">Contribuye al desarrollo de una aplicación para tomar y organizar notas de manera eficiente.</p>
+                        <a href="#" class="btn btn-primary">Ver proyecto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sección de Recursos -->
+<section class="recursos">
+    <div class="container">
+        <h2>Recursos Útiles</h2>
+        <ul class="list-group">
+            <li class="list-group-item"><a href="#">Libros recomendados para aprender programación</a></li>
+            <li class="list-group-item"><a href="#">Herramientas de desarrollo imprescindibles</a></li>
+            <li class="list-group-item"><a href="#">Sitios web de referencia para desarrolladores</a></li>
+            <li class="list-group-item"><a href="#">Comunidades en línea para compartir conocimientos</a></li>
+        </ul>
+    </div>
+</section>
+
+<script>
+    function toggleAnswer(id) {
+        var element = document.getElementById(id);
+        if (element.style.display === "none") {
+            element.style.display = "block";
+        } else {
+            element.style.display = "none";
+        }
+    }
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
